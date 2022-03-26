@@ -2,67 +2,72 @@
 
 ## Overview of the analysis: Explain the purpose of this analysis.
 
-a loan lending service company would like to better evaluate candidates by credit risk. Using machine learning through Python, this analysis includes programs that train and predict load credit risk. The resampling models and predicting algorithms such as SMOTEEN and Ensemble Classifiers were executed with their finalized reports. 
+
+The objective of the analysis is to evaluate the performance of machine learning methods to accuralely predict credit risk. Once this analysis is performed have enough information to make a written recommendation on whether they should be used to predict credit risk.
+
 
 ## Results
 
-- Oversampling Results
-Accuracy Score is higher than 50% but not high
+### **- Oversampling Results: 63,66%**
 
-![RANDOM OVERSAMPLING SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Naive%20Random%20Oversampling%20Accuracy%20Score.PNG)
+The result of this test is above 50% but not sufficient. The report shows a good recall score but with low precision score resulting on a low f1 score. 
 
-The report shows a good recall score but a very low precision score thus a low f1 score. 
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Undersampling%20.png?raw=true"/>
 
-![RANDOM OVERSAMPLING REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Naive%20Random%20Oversampling%20Report.PNG)
-
-SMOTE oversampling resulted in a moderate accuracy score.
-
-![SMOTE OVERSAMPLING SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/SMOTE%20Oversampling%20Accuracy%20Score.PNG)
-
-The report shows very low precision with low recall for high-risk predicting. Low risk predicting has high precision and low recall. Overall f1 score is moderate.  
-
-![SMOTE OVERSAMPLING REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/SMOTE%20Oversampling%20Report.PNG)
+### **- SMOTE Oversampling Results: 63.02%**
 
 
-- Undersampling
+The report shows very low precision with low recall for high-risk predicting. Low risk predicting has high precision and low recall. Overall f1 score is moderate. 
+
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/SMOTE%20Oversampling%20.png?raw=true"/>
+
+
+### **- Undersampling**
 The accuracy score is low for undersampling.
 
-![UNDERSAMPLING SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Undersampling%20Accuracy%20Score.PNG)
+
 
 recall and precision are low for both low and high-risk predictability.
 
-![UNDERSAMPLING REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Undersampling%20Report.PNG)
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Undersampling%20.png?raw=true"/>
 
 
-- Combination (Over and Under) Sampling
+
+
+### **- Combination (Over and Under) Sampling**
 The accuracy score is moderate for combined over and under-sampling.
 
-![COMBO SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Combonation%20(Over%20and%20Under)%20Sampling%20Accuracy%20Score.PNG)
+
 
 the recall is moderate and precision is low for high-risk predicting. precision is high and recall is low for low-risk predicting. 
 
-![COMBO REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Combination%20(Over%20and%20Under)%20Sampling%20Report.PNG)
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Combine%20Under%20-%20Oversampling%20.png?raw=true"/>
 
-
-
-- Ensemble Learners: Balanced Forest Classifier
+### **- Ensemble Learners: Balanced Forest Classifier**
 With a balanced random forest classifier of ensemble learning algorithm, the accuracy score is moderate. 
 
-![ENSEMBLE SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Balanced%20Random%20Forest%20Classifier%20Accuracy%20Score.PNG)
 
 The precision is moderate and recall is low for high-risk predicting. The precision and recall are 100% for low-risk predicting. Overall F1 score is very high. 
 
-![ENSEMBLE REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Balanced%20Random%20Forest%20Classifier%20Report.PNG)
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Balanced%20Random%20Forest%20Classifier.png?raw=true"/>
 
-- Easy Ensemble AdaBoost Classifier
+### **-- Easy Ensemble AdaBoost Classifier**
 
 With Easy Ensemble AdaBoost Classifier algorithm, the accuracy score is high.  
 
-![EASY SCORE](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Easy%20AdaBoost%20Classifier%20Report.PNG)
+
 
 In the report, the precision is very low for high-risk predicting but high on sensitivity/recall. The low-risk predictability is high on precision and recall/sensitivity. Overall F1 score is high. F1 score for high-risk predicting is very low.
 
-![EASY REPORT](https://github.com/XSR700/Credit_Risk_Analysis/blob/main/Screenshots/Easy%20Ensemble%20AdaBoost%20Classifier%20Accuracy%20Score.PNG)
+<p align = "center">
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Easy%20Assemble%20Adabost%20Classifier.png?raw=true"/>
+
+
 
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
