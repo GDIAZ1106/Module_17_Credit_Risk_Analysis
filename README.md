@@ -58,6 +58,7 @@ In the report, the precision is very low for high-risk predicting but high on se
 The best option to use in this type of activities a models with a high accuracy result but with the focus on having a high precision level. The idea is to avoid high risk candidtates as not risky, when in fact there is a high change of a default, in other words, we are trying to avoid false negative.
 
 
-From all the algorithms performed, none showed a promising robust result to confidently predict our results except for the Easy Ensemble AdaBoost Classifier showed a high accuracy score of 0.92. Considering the results shown by this method it is definitely the one that we suggest to be used. 
+From all the algorithms performed, none showed a promising robust result to confidently predict our results except for the Easy Ensemble AdaBoost Classifier showed a high accuracy score of 0.92. On the other hand this method offer a low recall on the high risk candidates which is the most important risk that we should avoid (false negatives). I would say that the only method that can be used is the Easy Ensemble Balance Forest Classifier since offer a higher recal of 73%.
 
+I would be recommendable also to try to increase the size of the database in order to have a bigger universe of high-risk candidates that could help the methods to increase the recall. 
 
