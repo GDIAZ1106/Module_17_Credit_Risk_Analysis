@@ -13,23 +13,17 @@ The objective of the analysis is to evaluate the performance of machine learning
 The result of this test is above 50% but not sufficient. The report shows a good recall score but with low precision score resulting on a low f1 score. 
 
 <p align = "center">
-<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Undersampling%20.png?raw=true"/>
+<img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/712ac0153b5b72a8e8b6943efd2ab31a92278e14/Resources/Naive%20Random%20Oversampling%20.png?raw=true"/>
 
 ### **- SMOTE Oversampling Results: 63.02%**
-
-
-The report shows very low precision with low recall for high-risk predicting. Low risk predicting has high precision and low recall. Overall f1 score is moderate. 
+The report shows very low precision with low recall for high-risk predicting. Low risk predicting has high precision and low recall. Overall f1 score is low. Results are pretty similar than the previous method. 
 
 <p align = "center">
 <img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/SMOTE%20Oversampling%20.png?raw=true"/>
 
 
-### **- Undersampling**
-The accuracy score is low for undersampling.
-
-
-
-recall and precision are low for both low and high-risk predictability.
+### **- Undersampling Results: 51,03%**
+The accuracy score is low for undersampling recall and precision are low for both low and high-risk predictability.
 
 <p align = "center">
 <img src ="https://github.com/GDIAZ1106/Module_17_Credit_Risk_Analysis/blob/ec19dcdbc625b4e8114c8732109ffc86d130c274/Resources/Undersampling%20.png?raw=true"/>
